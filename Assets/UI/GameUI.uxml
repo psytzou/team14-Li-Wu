@@ -1,0 +1,8 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="hud-root" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0;">
+        <ui:VisualElement name="HP_background" style="flex-grow: 1; position: absolute; width: 150px; height: 45px; overflow: hidden;">
+            <ui:VisualElement name="HP_fill" picking-mode="Ignore" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-image: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=3316425174430470091&amp;guid=8bad8f3a61cfa0849a9050954d2b3121&amp;type=3#check-dash@2x&quot;); -unity-background-image-tint-color: rgb(255, 0, 0); background-size: 130% 200%;" />
+            <ui:Label text="healthlabel" name="healthlabel" emoji-fallback-support="true" style="position: absolute; width: 100%; height: 100%; -unity-text-align: middle-left; font-size: 15px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 15px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
