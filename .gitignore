@@ -32,6 +32,8 @@ Thumbs.db
 # Unity crash reports
 sysinfo.txt
 
-# Keep the GitHub Pages WebGL build
+# Keep the GitHub Pages WebGL builds
+!/Build/
+!/Build/**
 !docs/Build/
 !docs/Build/**
